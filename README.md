@@ -6,7 +6,7 @@
   - [IntelliJ IDEA](setup/intellij.md)
   - [Travis CI](setup/travis_ci.md)
 - JavaFX
-  - [Starter Code](javafx/stater_code.md)
+  - [Starter Code](javafx/starter_code.md)
   - [Responsiveness (or lack thereof)](javafx/responsiveness.md)
   - [Scene Switching](javafx/scene_switching.md)
   - [Multi-Controller Views](javafx/multi_controller_views.md)
