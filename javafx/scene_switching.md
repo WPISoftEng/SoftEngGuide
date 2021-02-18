@@ -74,7 +74,7 @@ public class App extends Application {
      
         private String path;
      
-        Environment(String path) {
+        View(String path) {
             this.path = path;
         }
      
@@ -84,7 +84,8 @@ public class App extends Application {
     }
     ...
     public void setRoot(View view) {
-        primaryStage.getScene().setRoot(FXMLLoader.load(getClass().getResource(view.getPath()).toExternalForm()));
+      Parent root = FXMLLoader.load(getClass().getResourceAsStream(view.getPath());
+      primaryStage.getScene().setRoot(root);
     }
 }
 ```
