@@ -11,6 +11,8 @@
   - [Scene Switching](javafx/scene_switching.md)
   - [Multi-Controller Views](javafx/multi_controller_views.md)
 - [Dependency Injection](DI/intro.md)
+  - [Simple DB Example](DI/simple_db.md)
+  - [FXML Controller Injection](DI/fxml_controllers.md)
 - Test Driven Development
   - [Unit Testing](tdd/unit_tests.md)
   - [TestFX](tdd/testfx.md)
