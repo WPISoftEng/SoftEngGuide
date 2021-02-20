@@ -28,6 +28,12 @@ If the image was at `.../teamZ/controllers/blue.png`, then you could access it m
 
 If you're accessing files using any other method than this, your application **will break** when it comes time to jar it up.
 
+## Absolute Path
+
+Relative paths can get confusing to read and debug, especially if you're moving up directories with `../`. A better solution would be an absolute path. 
+
+To access resources with an absolute path, just begin the path with `/edu/wpi/...`. The first `/` is important, as that specifies the root directory. Forgetting that will cause the path to act as a relative path.
+
 ## Saving Files
 
 You should save files to AppData or the desktop.
