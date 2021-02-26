@@ -10,6 +10,7 @@
   - [Responsiveness (or lack thereof)](javafx/responsiveness.md)
   - [Scene Switching](javafx/scene_switching.md)
   - [Multi-Controller Views](javafx/multi_controller_views.md)
+  - [Passing model through constructor](javafx/constructor.md)
 - [Dependency Injection](DI/intro.md)
   - [Simple DB Example](DI/simple_db.md)
   - [FXML Controller Injection](DI/fxml_controllers.md)
