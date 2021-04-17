@@ -4,7 +4,7 @@ Responsiveness is not an easy task. When doing web development there are lots of
 
 In my experience, responsiveness with JavaFX is what slows down a project the most. It's very easy to hard code the width, height, and layout of elements in a scene, but relating them to each other and using percentages to make them look the same on different devices is not as simple as it should be.
 
-For this reason, my recommendation is to choose a specific size (1920x1080) for the application and hardcode everything else. It will look good when displayed on the screens in WPI Lecture Halls, and most laptop screens are big enough to view it. If you work on a dekstop at home, it will also fit perfectly on a full HD monitor.
+For this reason, my recommendation is to choose a specific size (1920x1080) for the application and hardcode everything else. It will look good when displayed on the screens in WPI Lecture Halls, and most laptop screens are big enough to view it. If you work on a desktop at home, it will also fit perfectly on a full HD monitor.
 
 ## Absolute Layout
 
